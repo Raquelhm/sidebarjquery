@@ -1,0 +1,86 @@
+/* .caja1{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    display: inline-block
+}
+.caja2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(104, 224, 67);
+    display: inline-block
+}
+.caja3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 179);
+    display: inline-block
+}
+.caja4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: flex;
+    justify-content: space-between;
+}
+#burguer{
+    font-size: 30px;
+    padding: 5px 20px;
+}
+#burguer:hover{
+    font-size: 32px;
+    padding: 5px 20px;
+    color: lightcoral;
+    cursor: pointer;
+}
+.logo{
+    font-size: 28px;
+    padding: 10px 20px;
+}
+ul{
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(240, 128, 128, 0.479);
+    color: white;
+    list-style: none;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: none;
+}
+ul .just{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul li{
+    padding: 15px;
+    font-size: 20px;
+    
+}
+ul li:hover{
+    background-color: lightcoral;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul p{
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+}
